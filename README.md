@@ -1,5 +1,17 @@
 # CommunicationOnOpenCV
 This repo provides basic tools for communication simulation based on OpenCV framework.
+# Build Examples
+```bash
+cd <repo/path>
+mkdir build && cd build && cmake ..
+build$ cmake --build .
+[ 50%] Building CXX object CMakeFiles/AWGN.dir/main.cpp.o
+[100%] Linking CXX executable AWGN
+[100%] Built target AWGN
+build$ ./AWGN
+SER: 0.000976562
+BER: 0.000488281
+```
 # Examples
 ## Example0-generate QPSK samples
 ```cpp
