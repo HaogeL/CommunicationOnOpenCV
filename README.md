@@ -1,6 +1,5 @@
 # CommunicationOnOpenCV
 This repo provides basic tools for communication simulation based on OpenCV framework.
-Tested on Ubuntu and OpenCV 4.7
 # Build Examples
 ```bash
 cd <repo/path>
@@ -9,12 +8,11 @@ build$ cmake --build .
 [ 50%] Building CXX object CMakeFiles/AWGN.dir/main.cpp.o
 [100%] Linking CXX executable AWGN
 [100%] Built target AWGN
-build$ ./AWGN
+build$ ./ComOpenCV
 SER: 0.000976562
 BER: 0.000488281
 ```
-# Examples 
-Check simulation plot in Juypter [AWGN.ipynb](https://github.com/HaogeL/CommunicationOnOpenCV/blob/main/Python/AWGN.ipynb).
+# Examples
 ## Example0-generate QPSK samples
 ```cpp
 int main(int argc, char* argv[]){
